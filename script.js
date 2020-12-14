@@ -15,13 +15,13 @@ function validate() {
      alert( "Please provide your month of birth! between 1 and 12" );
      document.myForm.month.focus() ;
      return false;
-//   }
-//   else if( document.myForm.date.value == "" || isNaN( document.myForm.month.value ) || 
-//   document.myForm.month.value.length != 1|| document.myForm.date.value > 31 || document.myForm.date.value <= 0) {
-//      alert( "Please provide a valid date that you were born in!" );
-//      document.myForm.day.focus() ;
-//      return false;
-//   }
+  }
+  else if( document.myForm.date.value == "" || isNaN( document.myForm.month.value ) || 
+  document.myForm.month.value.length != 1|| document.myForm.date.value > 31 || document.myForm.date.value <= 0) {
+     alert( "Please provide a valid date that you were born in!" );
+     document.myForm.day.focus() ;
+     return false;
+  }
 //   else if(genders[0].checked==false && genders[1].checked==false ) {
 //       alert("You must select male or female");
 //       return false;
