@@ -104,7 +104,7 @@ function getGender(){
           
   }
 }
-// function findName(){
-//   dayValue = calculateDayValue();
-//   getGender();
+function findName(){
+  dayValue = calculateDayValue();
+  getGender();
 }
