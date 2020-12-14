@@ -23,7 +23,10 @@ body{
   .form-check-label{
     color: rgb(255, 255, 255);
   }
-  
+  input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
   
   
   
