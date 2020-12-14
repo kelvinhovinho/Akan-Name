@@ -51,14 +51,14 @@ function getGender(){
   else if(genders[1].checked == true){
     var gender = "female";
   }
-//   else{
-//     return false;
-//   }
-//   switch(gender){
-//     case "male":
-//       if (dayValue == 1){
-//         alert("You were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
-//       }
+  else{
+    return false;
+  }
+  switch(gender){
+    case "male":
+      if (dayValue == 1){
+        alert("You were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
+      }
 //       else if(dayValue == 2){
 //         alert("You were born on "+dayNames[1] + " and Your akan name is " +maleNames[1]+"!");
 //       }
